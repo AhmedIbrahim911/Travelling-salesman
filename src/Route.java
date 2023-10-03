@@ -67,34 +67,6 @@ public class Route {
                 }
             }
         }
-/*
-        for(City gene : secondDNA[0]) {
-            if(!firstCrossOver.contains(gene)) {
-                firstCrossOver.add(gene);
-            }
-        }
-
-        for(City gene : secondDNA[1]) {
-            if(!firstCrossOver.contains(gene)) {
-                firstCrossOver.add(gene);
-            }
-        }
-
-
-
-        for(City gene : firstDNA[0]) {
-            if(!secondCrossOver.contains(gene)) {
-                secondCrossOver.add(gene);
-            }
-        }
-
-        for(City gene : firstDNA[1]) {
-            if(!secondCrossOver.contains(gene)) {
-                secondCrossOver.add(gene);
-            }
-        }
-
- */
 
         if(firstCrossOver.size() != GeneticUtils.cities.length ||
            secondCrossOver.size() != GeneticUtils.cities.length) {
