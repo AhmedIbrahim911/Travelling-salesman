@@ -40,7 +40,7 @@ public class Population {
         doSelection();
     }
 
-    private void doSelection() {
+    private void doSelection() { //fitness
         this.population.sort(Comparator.comparingDouble(Route::getDistance));
         this.population = this.population.stream().limit(this.initialSize).collect(Collectors.toList());
     }
